@@ -1,0 +1,232 @@
+html,body {
+    margin:0;
+    padding: 0;
+    background-color: burlywood;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.firstpage {
+    margin: 0 auto;
+    border:0px rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    max-width: 700px;
+    height: 240px;
+    color: rgb(255, 255, 255);
+    border: 0px solid rgb(0, 0, 0); 
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    border-radius: 20px;
+}
+
+.left {
+    width: 60%;
+}
+.heading {
+    margin-left: 15px;
+    margin-top:10px;
+}
+.startbutton {
+    background-color:burlywood;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-top: 30px;
+    width :390px;
+    height:30px;
+    border:0px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    outline: none;
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    transition-delay:0s;
+}
+.startbutton:hover{
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    transform: translateY(-2px);
+}
+.right {
+    width: 40%;
+    padding: 10px;
+}
+.imgcoffee {
+    width: 45vh;
+}
+.coffeeheading {
+    margin-left: 40px;
+}
+.imgcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+.Group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+     width:250px;
+     height: 300px;
+     box-sizing: border-box;
+     padding: 20px;
+     text-align: center;
+     border: 2px solid none;
+     border-radius: 10px;
+     margin-top: -110px;
+     transition-property: transform;
+     transition-duration: 0.3s;
+     transition-timing-function: ease-in;
+     overflow: hidden;
+}
+.Group:hover {
+    transform: translateY(-5px);
+}
+.img {
+    width:100%;
+    border: 0px solid white;
+    border-radius: 10px;
+}
+.price {
+    background-color:rgb(255, 255, 255);
+    padding: 2px;
+    color: black;
+    border: 2px solid none;
+    border-radius: 10px;
+}
+.img2 {
+    width: 100%;
+    height: 210px;
+    border: 0px solid white;
+    border-radius: 10px;
+}
+.imgone {
+    width:100%;
+    height: 210px;
+    border: 0px solid white;
+    border-radius: 10px;
+}
+.contactcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fouthpage {
+    width: 100%;
+    height: 40vh;
+}
+.contactheading {
+    margin-left: 15px;
+    margin-top:10px;
+}
+.contactleft {
+    width: 50%;
+}
+.contactright {
+    width: 50%;
+}
+.textmargin {
+    margin: 50px;
+    font-size: 20px;
+}
+.textcontainer {
+    display: flex;
+}
+html {
+    scroll-behavior: smooth;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+}
+.size {
+    margin: 10px -10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.size:hover {
+    transform: translateY(-5px);
+    border-bottom: 3px solid black;
+}
+.headcontacts {
+    display: flex;
+    justify-content: end;
+    align-items:end;
+    margin-top: 10px;
+    margin-right:200px;
+    height:40px;
+}
+.contacts {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    transition: all 0.3s ease;
+}
+.contacts:hover {
+    transform: translateY(-3px);
+    border-bottom: 4px solid black;
+    border-radius: 1px;
+}
+.finalimg {
+    width: 50vh;
+    border: 0px solid inherit;
+    border-radius: 100px;
+}
+#footercontacts {
+    margin-left: 40px;
+}
+@media (max-width:500px) {
+    .contacts {
+        margin-right: -150px;
+    }
+    .container {
+        width: 90%;
+    }
+    .startbutton {
+        margin-left:10px;
+        width :250px;
+        height:30px;
+    }
+    .Group {
+        width:150px;
+        height: 220px;
+    }
+    .img2 {
+        width: 110px;
+        height: 110px;
+    }
+    .imgone {
+        width: 110px;
+        height: 110px;
+    }
+    .finalimg {
+        width: 40vh;
+        border: 0px solid inherit;
+        border-radius: 100px;
+    }
+    .imgcontainer {
+        height: 70vh;
+    }
+
+
+}
